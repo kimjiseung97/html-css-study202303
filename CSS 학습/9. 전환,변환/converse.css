@@ -1,0 +1,55 @@
+@import url(../../common.css);
+
+.main{
+    width: 100%;
+    height: 100%;
+    background: pink;
+}
+.banner-bar{
+    height: 60px;
+    background: #ccc;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.menu-bar{
+    background: yellow;
+    height: 60px;
+}
+.banner-bar .language-bar div{
+    width: 100px;
+    display: inline;
+}
+.banner-bar .language-bar div:first-child{
+    font-size: 0.7em;
+}
+.banner-bar .language-bar div:nth-child(2){
+    position: absolute;
+    left: 650px;
+    top: 15px;
+}
+.banner-bar .language-bar div:nth-child(3){
+    position: absolute;
+    left: 560px;
+    top: 35px;
+    width: fit-content;
+    font-size: 0.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
